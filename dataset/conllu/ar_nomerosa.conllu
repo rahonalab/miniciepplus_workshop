@@ -1,0 +1,153 @@
+# text = مخطوط،
+# sent_id = 0
+1	مخطوط	مُخطُوط	X	U---------	_	0	root	_	start_char=0|end_char=5|ner=O|SpaceAfter=No
+2	،	،	PUNCT	G---------	_	1	punct	_	start_char=5|end_char=6|ner=O|SpacesAfter=\s\n\n
+
+# text = بطبيعة الحال في السادس عشر من آب 1968 سُلّم إليَّ كتاب من تأليف رئيس دير يُدعى الأب فاليه يحملُ عنوان مخطوط دون أدسون دي مالك،
+# sent_id = 1
+1	بطبيعة	بطبيعة	X	U---------	_	10	nsubj	_	start_char=9|end_char=15|ner=O
+2	الحال	حَال	NOUN	N------S2D	Case=Gen|Definite=Def|Number=Sing	1	nmod	_	start_char=16|end_char=21|ner=O|SpacesAfter=\s\s\s\s\s\s\s\s\s
+3	في	فِي	ADP	P---------	AdpType=Prep	4	case	_	start_char=30|end_char=32|ner=O
+4	السادس	سَادِس	ADJ	A-----MS2C	Case=Gen|Definite=Com|Gender=Masc|Number=Sing	1	amod	_	start_char=33|end_char=39|ner=O
+5	عشر	عَشَرَة	NUM	QY----M---	Gender=Masc|NumForm=Word|NumValue=2	4	nummod	_	start_char=40|end_char=43|ner=O
+6	من	مِن	ADP	P---------	AdpType=Prep	7	case	_	start_char=44|end_char=46|ner=O
+7	آب	آب	NOUN	N------S2I	Case=Gen|Definite=Ind|Number=Sing	5	nmod	_	start_char=47|end_char=49|ner=O
+8	1968	1968	NUM	Q---------	NumForm=Digit	7	nummod	_	start_char=50|end_char=54|ner=O
+9-10	سُلّم	_	_	_	_	_	_	_	start_char=55|end_char=60|ner=O
+9	س	سَ	AUX	F---------	_	10	aux	_	_
+10	ُلم	َُلَّم	PART	F---------	_	0	root	_	_
+11	إليَّ	إِلَى	ADP	P---------	AdpType=Prep	12	case	_	start_char=61|end_char=66|ner=O
+12	كتاب	كِتَاب	NOUN	N------S2I	Case=Gen|Definite=Ind|Number=Sing	10	obl:arg	_	start_char=67|end_char=71|ner=O
+13	من	مِن	ADP	P---------	AdpType=Prep	14	case	_	start_char=72|end_char=74|ner=O
+14	تأليف	تَألِيف	NOUN	N------S2R	Case=Gen|Definite=Cons|Number=Sing	12	nmod	_	start_char=75|end_char=80|ner=O
+15	رئيس	رَئِيس	NOUN	N------S2R	Case=Gen|Definite=Cons|Number=Sing	14	nmod	_	start_char=81|end_char=85|ner=O
+16	دير	دير	X	U---------	_	15	nmod	_	start_char=86|end_char=89|ner=O
+17	يُدعى	اِدَّعَى	VERB	VIIA-3MS--	Aspect=Imp|Gender=Masc|Mood=Ind|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	15	acl	_	start_char=90|end_char=95|ner=O
+18	الأب	أَب	NOUN	N------S1D	Case=Nom|Definite=Def|Number=Sing	17	nsubj	_	start_char=96|end_char=100|ner=B-PER
+19-20	فاليه	_	_	_	_	_	_	_	start_char=101|end_char=106|ner=E-PER|SpacesAfter=\s\s
+19	فالي	فالي	X	U---------	_	18	nmod	_	start_char=101|end_char=105
+20	ه	هُوَ	PRON	SP---3MS2-	Case=Gen|Gender=Masc|Number=Sing|Person=3|PronType=Prs	19	nmod	_	start_char=105|end_char=106
+21	يحملُ	حَمَل	VERB	VIIA-3MS--	Aspect=Imp|Gender=Masc|Mood=Ind|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	18	acl	_	start_char=108|end_char=113|ner=O
+22	عنوان	عُنوَان	NOUN	N------S4R	Case=Acc|Definite=Cons|Number=Sing	21	obj	_	start_char=114|end_char=119|ner=O
+23	مخطوط	مُخطُوط	X	U---------	_	22	nmod	_	start_char=120|end_char=125|ner=O
+24	دون	دُونَ	ADP	PI------4-	AdpType=Prep|Case=Acc	27	case	_	start_char=126|end_char=129|ner=O
+25	أدسون	أدسون	X	U---------	_	27	nmod	_	start_char=130|end_char=135|ner=B-PER
+26	دي	دِي	X	X---------	Foreign=Yes	27	nmod	_	start_char=136|end_char=138|ner=I-PER
+27	مالك	مَالِك	X	U---------	_	22	nmod	_	start_char=139|end_char=143|ner=E-PER|SpaceAfter=No
+28	،	،	PUNCT	G---------	_	27	punct	_	start_char=143|end_char=144|ner=O|SpacesAfter=\s\n\n
+
+# text = مُترجم إلى الفرنسيّة حسب طبعة ج.
+# sent_id = 2
+1	مُترجم	مُتَرجِم	NOUN	N------S1I	Case=Nom|Definite=Ind|Number=Sing	0	root	_	start_char=147|end_char=153|ner=O
+2	إلى	إِلَى	ADP	P---------	AdpType=Prep	3	case	_	start_char=154|end_char=157|ner=O
+3	الفرنسيّة	فَرَنسِيّ	NOUN	N------S2D	Case=Gen|Definite=Def|Number=Sing	1	nmod	_	start_char=158|end_char=167|ner=O
+4	حسب	حَسَبَ	ADP	PI------4-	AdpType=Prep|Case=Acc	5	case	_	start_char=168|end_char=171|ner=O
+5	طبعة	طبعة	NOUN	N------S2R	Case=Gen|Definite=Cons|Number=Sing	1	nmod	_	start_char=172|end_char=176|ner=O
+6	ج	ج	X	Y---------	Abbr=Yes	5	nmod	_	start_char=177|end_char=178|ner=O|SpaceAfter=No
+7	.	.	PUNCT	G---------	_	1	punct	_	start_char=178|end_char=179|ner=O|SpacesAfter=\s\n\n
+
+# text = مابيّون ،
+# sent_id = 3
+1	مابيّون	مابيّون	X	U---------	_	0	root	_	start_char=182|end_char=189|ner=S-PER|SpacesAfter=\s\s
+2	،	،	PUNCT	G---------	_	1	punct	_	start_char=191|end_char=192|ner=O|SpacesAfter=\n\n
+
+# text = مطبعة دير 'لاسورس'،
+# sent_id = 4
+1	مطبعة	مُطَبِّعَة	NOUN	N------S1R	Case=Nom|Definite=Cons|Number=Sing	0	root	_	start_char=194|end_char=199|ner=O
+2	دير	دير	X	U---------	_	3	nmod	_	start_char=200|end_char=203|ner=B-LOC
+3	'لاسورس'	'لاسورس'	X	U---------	_	1	nmod	_	start_char=204|end_char=212|ner=E-LOC|SpaceAfter=No
+4	،	،	PUNCT	G---------	_	3	punct	_	start_char=212|end_char=213|ner=O|SpacesAfter=\s\n\n
+
+# text = باريس 1842،
+# sent_id = 5
+1	باريس	بَارِيس	X	X---------	Foreign=Yes	0	root	_	start_char=216|end_char=221|ner=S-LOC
+2	1842	1842	NUM	Q---------	NumForm=Digit	1	dep	_	start_char=222|end_char=226|ner=O|SpaceAfter=No
+3	،	،	PUNCT	G---------	_	1	punct	_	start_char=226|end_char=227|ner=O|SpacesAfter=\s\n\n
+
+# text = وكان الكتاب مرفوقاً ببيانات تاريخيّة هزيلة في حقيقة الأمر،
+# sent_id = 6
+1-2	وكان	_	_	_	_	_	_	_	start_char=230|end_char=234|ner=O
+1	و	وَ	CCONJ	C---------	_	0	root	_	start_char=230|end_char=231
+2	كان	كَان	AUX	VP-A-3MS--	Aspect=Perf|Gender=Masc|Number=Sing|Person=3|Voice=Act	4	cop	_	start_char=231|end_char=234
+3	الكتاب	كِتَاب	NOUN	N------S1D	Case=Nom|Definite=Def|Number=Sing	4	nsubj	_	start_char=235|end_char=241|ner=O
+4	مرفوقاً	مَرفُوق	ADJ	A-----MS4I	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing	1	parataxis	_	start_char=242|end_char=249|ner=O
+5-6	ببيانات	_	_	_	_	_	_	_	start_char=250|end_char=257|ner=O
+5	ب	بِ	ADP	P---------	AdpType=Prep	6	case	_	start_char=250|end_char=251
+6	بيانات	بَيَان	NOUN	N------P2I	Case=Gen|Definite=Ind|Number=Plur	4	obl:arg	_	start_char=251|end_char=257
+7	تاريخيّة	تَارِيخِيّ	ADJ	A-----FS2I	Case=Gen|Definite=Ind|Gender=Fem|Number=Sing	6	amod	_	start_char=258|end_char=266|ner=O
+8	هزيلة	هَزِيل	ADJ	A-----FS2I	Case=Gen|Definite=Ind|Gender=Fem|Number=Sing	6	amod	_	start_char=267|end_char=272|ner=O
+9	في	فِي	ADP	P---------	AdpType=Prep	10	case	_	start_char=273|end_char=275|ner=O
+10	حقيقة	حَقِيقَة	NOUN	N------S2R	Case=Gen|Definite=Cons|Number=Sing	6	nmod	_	start_char=276|end_char=281|ner=O
+11	الأمر	أَمر	NOUN	N------S2D	Case=Gen|Definite=Def|Number=Sing	10	nmod	_	start_char=282|end_char=287|ner=O|SpaceAfter=No
+12	،	،	PUNCT	G---------	_	1	punct	_	start_char=287|end_char=288|ner=O|SpacesAfter=\s\n\n
+
+# text = ويؤكّد مؤلّفه بأنّه نسخ بوفاءٍ مخطوطاً يعود إلى القرن الرابع عشر،
+# sent_id = 7
+1-2	ويؤكّد	_	_	_	_	_	_	_	start_char=291|end_char=297|ner=O
+1	و	وَ	CCONJ	C---------	_	0	root	_	_
+2	يؤكد	أَكَّد	VERB	VIIA-3MS--	Aspect=Imp|Gender=Masc|Mood=Ind|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	1	parataxis	_	_
+3-4	مؤلّفه	_	_	_	_	_	_	_	start_char=298|end_char=304|ner=O
+3	مؤلف	مُؤَلِّف	NOUN	N------S1R	Case=Nom|Definite=Cons|Number=Sing	2	nsubj	_	_
+4	ه	هُوَ	PRON	SP---3MS2-	Case=Gen|Gender=Masc|Number=Sing|Person=3|PronType=Prs	3	nmod	_	_
+5-7	بأنّه	_	_	_	_	_	_	_	start_char=305|end_char=310|ner=O
+5	ب	بِ	ADP	P---------	AdpType=Prep	8	case	_	_
+6	أن	أَنَّ	SCONJ	C---------	_	8	mark	_	_
+7	ه	هُوَ	PRON	SP---3MS4-	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	8	nsubj	_	_
+8	نسخ	نُسخَة	NOUN	N------S1I	Case=Nom|Definite=Ind|Number=Sing	2	obl:arg	_	start_char=311|end_char=314|ner=O
+9-10	بوفاءٍ	_	_	_	_	_	_	_	start_char=315|end_char=321|ner=O
+9	ب	بِ	ADP	P---------	AdpType=Prep	10	case	_	start_char=315|end_char=316
+10	وفاءٍ	وَفِيَّة	NOUN	N------S2I	Case=Gen|Definite=Ind|Number=Sing	8	obl	_	start_char=316|end_char=321
+11	مخطوطاً	مَخطُوط	NOUN	N------S4I	Case=Acc|Definite=Ind|Number=Sing	10	nmod	_	start_char=322|end_char=329|ner=O
+12	يعود	عَاد	VERB	VIIA-3MS--	Aspect=Imp|Gender=Masc|Mood=Ind|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	11	acl	_	start_char=330|end_char=334|ner=O
+13	إلى	إِلَى	ADP	P---------	AdpType=Prep	14	case	_	start_char=335|end_char=338|ner=O
+14	القرن	قَرن	NOUN	N------S2D	Case=Gen|Definite=Def|Number=Sing	12	obl	_	start_char=339|end_char=344|ner=O
+15	الرابع	رَابِع	ADJ	A-----MS2C	Case=Gen|Definite=Com|Gender=Masc|Number=Sing	14	amod	_	start_char=345|end_char=351|ner=O
+16	عشر	عَشَرَة	NUM	QY----M---	Gender=Masc|NumForm=Word|NumValue=2	15	nummod	_	start_char=352|end_char=355|ner=O|SpaceAfter=No
+17	،	،	PUNCT	G---------	_	1	punct	_	start_char=355|end_char=356|ner=O|SpacesAfter=\s\n\n
+
+# text = كان قد عثر عليه في دير مالك العلّامة العظيم الذي عاش في القرن السابع عشر والذي يعود إليه فضل كبير في تأريخ النظام الكلوني.
+# sent_id = 8
+1	كان	كَان	VERB	VP-A-3MS--	Aspect=Perf|Gender=Masc|Number=Sing|Person=3|Voice=Act	0	root	_	start_char=359|end_char=362|ner=O
+2	قد	قَد	AUX	F---------	_	3	aux:pass	_	start_char=363|end_char=365|ner=O
+3	عثر	عَثَر	VERB	VP-P-3MS--	Aspect=Perf|Gender=Masc|Number=Sing|Person=3|Voice=Pass	1	xcomp	_	start_char=366|end_char=369|ner=O
+4-5	عليه	_	_	_	_	_	_	_	start_char=370|end_char=374|ner=O
+4	علي	عَلَى	ADP	P---------	AdpType=Prep	5	case	_	start_char=370|end_char=373
+5	ه	هُوَ	PRON	SP---3MS2-	Case=Gen|Gender=Masc|Number=Sing|Person=3|PronType=Prs	3	obl:arg	_	start_char=373|end_char=374
+6	في	فِي	ADP	P---------	AdpType=Prep	9	case	_	start_char=375|end_char=377|ner=O
+7	دير	دير	X	U---------	_	9	nmod	_	start_char=378|end_char=381|ner=B-LOC
+8	مالك	مَالِك	X	U---------	_	9	nmod	_	start_char=382|end_char=386|ner=I-LOC|SpacesAfter=\s\s
+9	العلّامة	العلّامة	X	U---------	_	3	obl	_	start_char=388|end_char=396|ner=I-LOC
+10	العظيم	عَظِيم	ADJ	A-----MS2D	Case=Gen|Definite=Def|Gender=Masc|Number=Sing	9	amod	_	start_char=397|end_char=403|ner=E-LOC
+11	الذي	اَلَّذِي	DET	SR----MS2-	Case=Gen|Gender=Masc|Number=Sing|PronType=Rel	12	nsubj	_	start_char=404|end_char=408|ner=O
+12	عاش	عَاش	VERB	VP-A-3MS--	Aspect=Perf|Gender=Masc|Number=Sing|Person=3|Voice=Act	9	acl:relcl	_	start_char=409|end_char=412|ner=O
+13	في	فِي	ADP	P---------	AdpType=Prep	14	case	_	start_char=413|end_char=415|ner=O
+14	القرن	قَرن	NOUN	N------S2D	Case=Gen|Definite=Def|Number=Sing	12	obl	_	start_char=416|end_char=421|ner=O
+15	السابع	سَابِع	ADJ	A-----MS4C	Case=Acc|Definite=Com|Gender=Masc|Number=Sing	14	amod	_	start_char=422|end_char=428|ner=O
+16	عشر	عَشَرَة	NUM	QY----M---	Gender=Masc|NumForm=Word|NumValue=2	15	nummod	_	start_char=429|end_char=432|ner=O
+17-18	والذي	_	_	_	_	_	_	_	start_char=433|end_char=438|ner=O
+17	و	وَ	CCONJ	C---------	_	9	cc	_	start_char=433|end_char=434
+18	الذي	اَلَّذِي	DET	SR----MS4-	Case=Gen|Gender=Masc|Number=Sing|PronType=Rel	19	nsubj	_	start_char=434|end_char=438
+19	يعود	عَاد	VERB	VIIA-3MS--	Aspect=Imp|Gender=Masc|Mood=Ind|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	9	acl:relcl	_	start_char=439|end_char=443|ner=O
+20-21	إليه	_	_	_	_	_	_	_	start_char=444|end_char=448|ner=O
+20	إلي	إِلَى	ADP	P---------	AdpType=Prep	21	case	_	start_char=444|end_char=447
+21	ه	هُوَ	PRON	SP---3MS2-	Case=Gen|Gender=Masc|Number=Sing|Person=3|PronType=Prs	19	obl:arg	_	start_char=447|end_char=448
+22	فضل	فَضل	NOUN	N------S1I	Case=Nom|Definite=Ind|Number=Sing	19	nsubj	_	start_char=449|end_char=452|ner=O
+23	كبير	كَبِير	ADJ	A-----MS1I	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing	22	amod	_	start_char=453|end_char=457|ner=O
+24	في	فِي	ADP	P---------	AdpType=Prep	25	case	_	start_char=458|end_char=460|ner=O
+25	تأريخ	تَأرِيخ	NOUN	N------S2R	Case=Gen|Definite=Cons|Number=Sing	22	nmod	_	start_char=461|end_char=466|ner=O
+26	النظام	نِظَام	NOUN	N------S2D	Case=Gen|Definite=Def|Number=Sing	25	nmod	_	start_char=467|end_char=473|ner=O
+27	الكلوني	كَلُونِيّ	ADJ	A-----MS2D	Case=Gen|Definite=Def|Gender=Masc|Number=Sing	26	amod	_	start_char=474|end_char=481|ner=O|SpaceAfter=No
+28	.	.	PUNCT	G---------	_	1	punct	_	start_char=481|end_char=482|ner=O|SpacesAfter=\s\n\n
+
+# text = وابتهجتُ لتلك اللُّقية العلميّة ،
+# sent_id = 9
+1-2	وابتهجتُ	_	_	_	_	_	_	_	start_char=485|end_char=493|ner=O
+1	و	وَ	CCONJ	C---------	_	0	root	_	start_char=485|end_char=486
+2	ابتهجتُ	اِبتَهَج	VERB	VP-A-3FS--	Aspect=Perf|Gender=Fem|Number=Sing|Person=3|Voice=Act	1	parataxis	_	start_char=486|end_char=493
+3-4	لتلك	_	_	_	_	_	_	_	start_char=494|end_char=498|ner=O
+3	ل	لِ	ADP	P---------	AdpType=Prep	5	case	_	start_char=494|end_char=495
+4	تلك	ذٰلِكَ	DET	SD----FS2-	Case=Gen|Gender=Fem|Number=Sing|PronType=Dem	5	det	_	start_char=495|end_char=498
+5	اللُّقية	لُِقِيَّة	NOUN	N------S2D	Case=Gen|Definite=Def|Number=Sing	2	obl:arg	_	start_char=499|end_char=507|ner=O
+6	العلميّة	عِلمِيّ	ADJ	A-----FS2D	Case=Gen|Definite=Def|Gender=Fem|Number=Sing	5	amod	_	start_char=508|end_char=516|ner=O
+7	،	،	PUNCT	G---------	_	1	punct	_	start_char=517|end_char=518|ner=O|SpacesAfter=\n\n
+
